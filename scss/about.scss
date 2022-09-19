@@ -1,0 +1,56 @@
+.bio {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  .bio-photo {
+    img {
+      border-radius: 20%;
+      height: 350px;
+      width: 600px;
+      object-fit: cover;
+    }
+  }
+
+  .bio-name {
+    text-align: right;
+    font-size: 50px;
+  }
+
+  .bio-text {
+    font-size: 20px;
+    width: 60%;
+    margin-top: 10px;
+  }
+}
+
+.history {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  .history-photo {
+    img {
+      border-radius: 20%;
+      height: 350px;
+      width: 600px;
+      object-fit: cover;
+    }
+  }
+
+  .history-name {
+    text-align: right;
+    font-size: 50px;
+  }
+
+  .history-text {
+    font-size: 20px;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
